@@ -1,0 +1,65 @@
+.signupform {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  background-color: #444444;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  font-size: large;
+}
+.signupform .form-group {
+  padding: 2px;
+  color: #dddddd;
+}
+
+.signupform input,
+textarea,
+select {
+  display: block;
+  padding-bottom: 2px;
+}
+input[type="text"],
+[type="email"],
+[type="date"],
+[type="number"],
+[type="tel"],
+[type="url"] {
+  width: 70%;
+  border: gray solid 1px;
+  border-radius: 2px;
+  color: #444444;
+}
+.form-group select {
+  width: 70%;
+  height: 25px;
+  color: #444444;
+}
+
+.button {
+  background-color: #dddddd;
+  color: #444444;
+  width: 80px;
+  height: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  border-color: #444444;
+  margin-top: 10px;
+  margin: 3px;
+}
+
+.button:hover {
+  background-color: #aaaaaa;
+  color: #ffffff;
+  border: darkgray;
+}
+textarea {
+  width: 70%;
+  margin-top: 2px;
+}
+
+p {
+  margin: 5px 0 2px 0;
+}
+.form-group input[type="radio"] {
+  display: inline;
+}
